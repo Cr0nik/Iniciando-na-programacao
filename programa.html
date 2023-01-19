@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write('<br>')
+        document.write('<br>')
+    }
+
+    function mostra(frase){
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+	var ano = 2022;
+
+    mostra("Rafael tem " + (ano - 2005) + " anos");
+    mostra("Sophia tem " + (ano - 2007) + " anos");
+    mostra("Layla tem " + (ano - 1983) + " anos");
+
+    var idadeRafael = 17;
+    var idadeSophia = 15;
+    var idadeLayla = 39;
+    var media = (idadeRafael + idadeSophia + idadeLayla)/3;
+
+    mostra('A media das idades é: ' + Math.round(media));
+    
+    var nome = 'Rafael'
+
+    mostra('A idade de ' + nome + ' é ' + idadeRafael);
+
+</script>

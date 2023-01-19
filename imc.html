@@ -1,0 +1,45 @@
+<meta charset="utf-8">
+
+
+<script>
+
+
+	function pulaLinha(){
+
+		document.write('<br>');
+		document.write('<br>');
+	}
+
+
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	function calculaImc(altura, peso){
+	
+		return peso / (altura * altura);		
+	}
+
+	var nome = prompt('Digite o seu nome: ');
+	var dataDeNascimento = prompt(nome + ', digite a sua data de nascimento: ');
+	var altura = prompt(nome + ', informe a sua altura:');
+	var peso = prompt(nome + ', informe o seu peso');
+	var total = calculaImc(altura, peso);
+
+	mostra(nome + ', nasceu em ' + dataDeNascimento + ' e o seu imc é de: ' + total);
+
+	if(total < 18.5){
+
+		mostra('Você está com o imc abaixo do recomendado.');
+	}
+
+	if(total > 35){
+
+		mostra('Você está com o imc acima do recomendado.');
+	}
+	if(total >= 18.5 && total <= 35 ){
+			mostra('O seu imc está exelente!!, Parabéns!');
+		}
+</script>
