@@ -4,5 +4,5 @@
 >Atualmente a minha meta é fazer 2 cursos aproximadamente por mês e estou cursando sobre git e github.
 
 ```
-Para conseguir fazer esses códigos eu utilizei o programa de ediçao [Sublime Text 3](https://www.sublimetext.com/3).
+Para conseguir fazer esses códigos eu utilizei o programa de ediçao Sublime Text 3.
 ```
